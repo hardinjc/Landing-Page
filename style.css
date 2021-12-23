@@ -1,0 +1,134 @@
+body {
+    font-family: Roboto;
+    margin: 0;
+}
+.hero , .footer {
+    background-color: #1f2937;
+}
+.hero {
+    padding-left:200px;
+    padding-right: 200px;
+    padding-bottom: 200px;
+    padding-top: 20px;
+}
+button.signup {
+    background-color: dodgerblue;
+    color: white;
+    border: 1px solid royalblue;
+    margin-top: 10px;
+}
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+.maintitle {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+.headerlink1, .link2 , .link3,  .subtext {
+    font-size: 18px;
+    color: gray;
+}
+.header {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.links {
+    display: flex;
+    gap: 12px;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+.left {
+    max-width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.img1 {
+    width: 500px;
+    height: 214px;
+    border-radius: 0%;
+    border: none;
+}
+.info {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.random {
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+.infos {
+    max-width: 200px;
+}
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    border: 5px solid royalblue;
+}
+.gray {
+    background-color: lightgray;
+    padding: 150px 300px;
+}
+.signature {
+    text-align: right;
+    font-weight: 900;
+    font-size: 32px;
+    margin-right: 35px;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+}
+.blue {
+    background-color: #3882F6;
+    padding: 50px 100px;
+    margin: 100px 200px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bluebox {
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+}
+.bluesub {
+    font-size: 16px;
+    color: #E5E7EB;
+}
+button.bluesignup {
+    background-color: #3882F6;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 8px 32px;
+}
+.footer {
+    text-align: center;
+    padding: 40px 100px;
+    color: #E5E7EB;
+}
